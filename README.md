@@ -2,7 +2,7 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Wendller/explore_mars_challenge)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Wendller/explore_mars_challenge/Elixir%20CI)
-![](https://img.shields.io/badge/mix%20test-100%25-green)
+![](https://img.shields.io/badge/excoveralls-100%25-green)
 
 ## Descrição
 
@@ -97,4 +97,13 @@ Execute os testes através do comando:
 
 ```bash
 mix test --cover
+
+| Percentage  | Module                     |
+| ----------- | -------------------------- |
+| 100.00%     | ExploreMars                |
+| 100.00%     | Mission                    |
+| 100.00%     | Probe                      |
+| 100.00%     | ProbeControl               |
+| ----------- | -------------------------- |
+| 100.00%     | Total                      |
 ```

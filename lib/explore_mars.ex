@@ -20,6 +20,3 @@ defmodule ExploreMars do
 
   defp validate_searching_area(_), do: {:error, "Searching area values must be passed in a tuple"}
 end
-
-# ExploreMars.init({5, 5}, {1, 2, "N"}, ["L", "M", "L", "M", "L", "M", "L", "M", "M"])
-# ExploreMars.init({5, 5}, {3, 3, "E"}, ["M", "M", "R", "M", "M", "R", "M", "R", "R", "M"])
